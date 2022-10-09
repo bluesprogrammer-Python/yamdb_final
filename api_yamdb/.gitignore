@@ -6,8 +6,6 @@ __pycache__/
 # C extensions
 *.so
 
-venv
-
 # Distribution / packaging
 .Python
 build/
@@ -148,7 +146,5 @@ dmypy.json
 .mypy_cache
 
 # папки со статикой и медиа
-static/
-posts/static/
 media/
 
