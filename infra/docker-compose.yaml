@@ -6,10 +6,10 @@ services:
     volumes:
       - /var/lib/postgresql/data/
     env_file:
-      - /home/sergey/Desktop/infra_sp2/infra/.env
+      - /home/sergey/Desktop/yamdb_final/infra/.env
   web:
     build:
-      context: /home/sergey/Desktop/infra_sp2/api_yamdb
+      context: /home/sergey/Desktop/yamdb_final/api_yamdb
     restart: always
     volumes:
       - static_value:/app/static/
@@ -17,7 +17,7 @@ services:
     depends_on:
       - db
     env_file:
-      - /home/sergey/Desktop/infra_sp2/infra/.env
+      - /home/sergey/Desktop/yamdb_final/infra/.env
 
   nginx:
     image: nginx:1.21.3-alpine
