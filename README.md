@@ -1,3 +1,5 @@
+![workflow](https://github.com/bluesprogrammer-Python/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+
 # infra_sp2
 
 
