@@ -8,8 +8,7 @@ services:
     env_file:
       - /home/sergey/Desktop/yamdb_final/infra/.env
   web:
-    build:
-      context: /home/sergey/Desktop/yamdb_final/api_yamdb
+    image: sergeysemenov/api_yamdb_web:latest
     restart: always
     volumes:
       - static_value:/app/static/
