@@ -41,7 +41,7 @@ sudo docker-compose exec web python manage.py collectstatic --no-input
 sudo docker-compose down -v
 
 #### Адрес сервера
-http://51.250.82.87:5000
+http://51.250.82.87:80
 
 ### Автор:
  	Семёнов Сергей (Github - bluesprogrammer-Python)
