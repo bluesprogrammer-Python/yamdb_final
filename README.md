@@ -41,7 +41,7 @@ sudo docker-compose exec web python manage.py collectstatic --no-input
 sudo docker-compose down -v
 
 #### Адрес боевого сервера 
-http://51.250.82.87:80
+http://51.250.82.87:80/api/v1
 
 ### Автор:
  	Семёнов Сергей (Github - bluesprogrammer-Python)
