@@ -40,7 +40,7 @@ sudo docker-compose exec web python manage.py collectstatic --no-input
 #### Остановка собранных контейнеров  
 sudo docker-compose down -v
 
-#### Адрес сервера 
+#### Адрес боевого сервера 
 http://51.250.82.87:80
 
 ### Автор:
