@@ -1,6 +1,6 @@
 ![workflow](https://github.com/bluesprogrammer-Python/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
-# infra_sp2
+# yamdb_final
 
 
 ### Описание: 
@@ -26,8 +26,8 @@ DB_HOST=db # название сервиса (контейнера)
 DB_PORT=5432 # порт для подключения к БД
 
 #### Клонировать репозиторий и перейти в него в командной строке
-git clone git@github.com:bluesprogrammer-Python/infra_sp2.git
-cd infra_sp2/infra
+git clone git@github.com:bluesprogrammer-Python/yamdb_final.git
+cd yamdb_final/infra
 
 #### Сборка контейнеров и запуск
 sudo docker-compose up -d --build  
