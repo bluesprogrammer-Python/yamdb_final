@@ -42,6 +42,7 @@ sudo docker-compose down -v
 
 #### Адрес боевого сервера 
 http://51.250.82.87:80/api/v1
+http://51.250.82.87:80/redoc
 
 ### Автор:
  	Семёнов Сергей (Github - bluesprogrammer-Python)
